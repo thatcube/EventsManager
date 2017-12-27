@@ -4,20 +4,20 @@ export default {
   state: {
     loadedEvents: [
       {
-        imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/4/47/New_york_times_square-terabass.jpg',
+        imageUrl: 'https://static.pexels.com/photos/22346/pexels-photo.jpg',
         id: 'afajfjadfaadfa323',
-        title: 'Event in New York',
+        title: 'Pet Cats',
         date: new Date(),
         location: 'New York',
-        description: 'New York, New York!'
+        description: 'Pet all of the cats that you can find.'
       },
       {
-        imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/7/7a/Paris_-_Blick_vom_gro%C3%9Fen_Triumphbogen.jpg',
+        imageUrl: 'https://static.pexels.com/photos/162971/potatoes-french-mourning-funny-162971.jpeg',
         id: 'aadsfhbkhlk1241',
-        title: 'Event in Paris',
+        title: 'Eat Fries',
         date: new Date(),
-        location: 'Paris',
-        description: 'It\'s Paris!'
+        location: 'Alfie\'s, NY',
+        description: 'You\'ll definitely be sick of this place really quickly and I wouldn\'t really recommend eating here'
       }
     ]
   },

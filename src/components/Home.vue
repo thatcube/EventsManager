@@ -57,7 +57,7 @@
 <style scoped>
   .title {
     position: absolute;
-    background-color: rgba(13, 71, 161, .8);
+    background-color: rgba(0, 0, 0, .6);
     color: white;
     font-size: 2em;
     padding: 15px;
