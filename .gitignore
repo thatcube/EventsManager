@@ -5,3 +5,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .idea
+.gitignore
+.eslintrc.js
+.editorconfig
+.babelrc
+.postcssrc.js
