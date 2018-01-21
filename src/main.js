@@ -29,11 +29,11 @@ new Vue({
   render: h => h(App),
   created () {
     firebase.initializeApp({
-      apiKey: 'AIzaSyD6jKzUDr6-omGOukemP6Z-8fa1jgTvvAE',
-      authDomain: 'vue-event.firebaseapp.com',
-      databaseURL: 'https://vue-event.firebaseio.com',
-      projectId: 'vue-event',
-      storageBucket: 'vue-event.appspot.com'
+      apiKey: 'your key here',
+      authDomain: 'yourdomain.firebaseapp.com',
+      databaseURL: 'https://databaseURL.firebaseio.com',
+      projectId: 'projectID',
+      storageBucket: 'storagebucket.appspot.com'
     })
     firebase.auth().onAuthStateChanged((user) => {
       if (user) {
